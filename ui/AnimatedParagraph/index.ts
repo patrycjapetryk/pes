@@ -1,0 +1,1 @@
+export { AnimatedParagraph } from './AnimatedParagraph';

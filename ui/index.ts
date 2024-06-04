@@ -6,3 +6,5 @@ export { NavigationList } from './NavigationList';
 export { NavigationCloseButton } from './NavigationCloseButton';
 export { NavigationDesktop } from './NavigationDesktop';
 export { NavigationMobile } from './NavigationMobile';
+export { Background } from './Background';
+export { AnimatedParagraph } from './AnimatedParagraph';

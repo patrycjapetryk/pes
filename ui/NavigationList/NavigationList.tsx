@@ -8,7 +8,7 @@ type Props = {
 export const NavigationList = ({ mobile }: Props) => {
   return (
     <ul
-      className={cn('hidden gap-6 md:flex', {
+      className={cn('hidden gap-5 md:flex', {
         'flex flex-col font-semibold text-gray': mobile,
       })}
     >

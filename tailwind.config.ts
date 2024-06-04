@@ -30,6 +30,14 @@ const config: Config = {
         'blue-pattern-2': "url('../public/images/background-2.jpg')",
         'blue-pattern-3': "url('../public/images/background-3.jpg')",
         'blue-pattern-4': "url('../public/images/background-4.jpg')",
+        'blue-pattern-mobile-1':
+          "url('../public/images/background-mobile-1.jpg')",
+        'blue-pattern-mobile-2':
+          "url('../public/images/background-mobile-2.jpg')",
+        'blue-pattern-mobile-3':
+          "url('../public/images/background-mobile-3.jpg')",
+        'blue-pattern-mobile-4':
+          "url('../public/images/background-mobile-4.jpg')",
       },
     },
   },
