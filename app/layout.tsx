@@ -1,7 +1,8 @@
 import type { Metadata } from 'next';
 
 import './globals.css';
-import { inter } from './fonts';
+import { poppins, roboto } from './fonts';
+import { Header } from '@/components/Header/Header';
 
 export const metadata: Metadata = {
   title: 'Fundacja PES',
@@ -10,12 +11,22 @@ export const metadata: Metadata = {
 
 export default function RootLayout({
   children,
-}: Readonly<{
+}: {
   children: React.ReactNode;
-}>) {
+}) {
   return (
-    <html lang='pl'>
-      <body className={inter.className}>{children}</body>
-    </html>
+    <>
+      <html lang='pl'>
+        <head>
+          <link rel='stylesheet' href='https://use.typekit.net/gps5gjg.css' />
+        </head>
+        <body
+          className={`${roboto.variable} ${poppins.variable} font-body text-white`}
+        >
+          <Header />
+          {children}
+        </body>
+      </html>
+    </>
   );
 }
