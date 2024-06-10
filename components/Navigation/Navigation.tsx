@@ -17,7 +17,7 @@ export const Navigation = ({ className, ...spread }: ComponentProps<'div'>) => {
     tl.current = gsap
       .timeline({
         defaults: {
-          duration: 1,
+          duration: 0.9,
           ease: 'back.out(1.4)',
         },
       })

@@ -41,15 +41,20 @@ const config: Config = {
         'blue-pattern-mobile-4':
           "url('../public/images/background-mobile-4.jpg')",
         'gradient-radial':
-          'radial-gradient(circle at center, rgba(39, 37, 38, 1) 0, rgba(39, 37, 38, 1) 3px, rgba(39, 37, 38, 0) 3px, rgba(39, 37, 38, 0) 100%)',
+          'radial-gradient(circle at center, rgba(255,255,255, 1) 0, rgba(255,255,255, 1) 3px, rgba(255,255,255, 0) 3px, rgba(255,255,255, 0) 100%)',
       },
       animation: {
         dots: 'dots 1s steps(4) infinite',
+        'fade-in': 'opacity 0.5s ease-in-out',
       },
       keyframes: {
         dots: {
           '0%': { 'clip-path': 'inset(0 100% 0 0)' },
           '100%': { 'clip-path': 'inset(0 -34% 0 0)' },
+        },
+        opacity: {
+          '0%': { opacity: '0' },
+          '100%': { opacity: '1' },
         },
       },
       clipPath: {

@@ -5,7 +5,7 @@ export const validationSchema = z.object({
     .string()
     .min(2, { message: 'Podaj imię' })
     .max(20, { message: 'Max 20 znaków' }),
-  email: z.string().email({ message: 'Podaj prawidłowy numer' }),
+  email: z.string().email({ message: 'Podaj prawidłowy mail' }),
   message: z
     .string()
     .min(5, { message: 'Wpisz wiadomość' })

@@ -6,3 +6,4 @@ export { ContactForm } from './ContactForm';
 export { Blog } from './Blog';
 export { Activities } from './Activities';
 export { Navigation } from './Navigation';
+export { NavigationCloseButton } from './Navigation';
