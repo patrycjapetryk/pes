@@ -20,6 +20,7 @@ const config: Config = {
         gray: '#7C7C7C',
         'darker-gray': '#707070',
         'dark-gray': '#263646',
+        'blue-gray': '#51495F',
       },
       fontFamily: {
         sans: ['var(--font-roboto)', 'helvetica', 'arial', 'sans-serif'],
