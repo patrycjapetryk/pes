@@ -4,7 +4,7 @@ import { useRef } from 'react';
 import gsap from 'gsap';
 import { useGSAP } from '@gsap/react';
 
-import { NavigationCloseButton, NavigationList } from '@/ui';
+import { CloseButton, NavigationList } from '@/ui';
 
 type Props = {
   handleCloseButtonClick: () => void;
@@ -49,7 +49,7 @@ export const NavigationMobile = ({ handleCloseButtonClick }: Props) => {
     <div className='fixed -right-8 top-10 md:top-[200px]' ref={container}>
       <nav className='menu rounded-l-3xl bg-white pb-24 pl-12 pr-28 pt-24 text-xl'>
         <NavigationList mobile />
-        <NavigationCloseButton
+        <CloseButton
           className='absolute right-12 top-5'
           handleButtonClick={handleButtonClick}
         />

@@ -132,7 +132,7 @@ export default function Home() {
       <Background className='animated-background-3 bg-blue-pattern-mobile-3 bg-right-bottom md:bg-blue-pattern-3' />
       <Background className='animated-background-4 bg-blue-pattern-mobile-4 bg-right-top md:bg-blue-pattern-4' />
 
-      <div className='relative flex w-full flex-col items-center py-[70vh]'>
+      <div className='relative flex w-full flex-col items-center pt-[70vh]'>
         <AnimatedParagraph>
           <span className='animated-text-1'>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit.

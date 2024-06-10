@@ -18,6 +18,7 @@ const config: Config = {
         blue: '#2A22AF',
         'dark-blue': '#05134A',
         gray: '#7C7C7C',
+        'darker-gray': '#707070',
         'dark-gray': '#263646',
       },
       fontFamily: {
@@ -38,6 +39,20 @@ const config: Config = {
           "url('../public/images/background-mobile-3.jpg')",
         'blue-pattern-mobile-4':
           "url('../public/images/background-mobile-4.jpg')",
+        'gradient-radial':
+          'radial-gradient(circle at center, rgba(39, 37, 38, 1) 0, rgba(39, 37, 38, 1) 3px, rgba(39, 37, 38, 0) 3px, rgba(39, 37, 38, 0) 100%)',
+      },
+      animation: {
+        dots: 'dots 1s steps(4) infinite',
+      },
+      keyframes: {
+        dots: {
+          '0%': { 'clip-path': 'inset(0 100% 0 0)' },
+          '100%': { 'clip-path': 'inset(0 -34% 0 0)' },
+        },
+      },
+      clipPath: {
+        dots: 'inset(0 100% 0 0)',
       },
     },
   },

@@ -7,3 +7,19 @@ html {
   -moz-osx-font-smoothing: grayscale;
   text-rendering: optimizeLegibility;
 }
+
+/* Change autocomplete styles in WebKit */
+@layer utilities {
+  input:-webkit-autofill,
+  input:-webkit-autofill:hover {
+    border: 1px solid #707070;
+    -webkit-text-fill-color: #707070;
+    -webkit-box-shadow: 0 0 0px 1000px #ffffff inset;
+  }
+
+  input:-webkit-autofill:focus {
+    border: 1px solid #272526;
+    -webkit-text-fill-color: #707070;
+    -webkit-box-shadow: 0 0 0px 1000px #ffffff inset;
+  }
+}
