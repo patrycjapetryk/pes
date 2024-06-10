@@ -3,7 +3,7 @@
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 
-import { cn } from '../../utils/cn';
+import { cn } from '../../../utils/cn';
 
 type Props = {
   url: string;
@@ -15,15 +15,15 @@ export const NavigationListItem = ({ url, label, mobile }: Props) => {
   const currentPath = usePathname();
 
   return (
-    <li className='uppercase'>
+    <li className={`uppercase ${mobile ? 'text-base' : 'text-sm'}`}>
       <Link
         className={cn(
-          'rounded-full px-5 py-2',
+          'px-5 py-2',
           {
             'text-dark-gray': mobile && currentPath.includes(url),
           },
           {
-            border: !mobile && currentPath.includes(url),
+            'rounded-full border': !mobile && currentPath.includes(url),
           },
         )}
         href={url}
@@ -33,5 +33,3 @@ export const NavigationListItem = ({ url, label, mobile }: Props) => {
     </li>
   );
 };
-
-// ${currentPath.includes(url) ? 'border' : ''}

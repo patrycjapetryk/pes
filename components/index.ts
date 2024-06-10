@@ -5,3 +5,4 @@ export { PartnersLogos } from './PartnersLogos';
 export { ContactForm } from './ContactForm';
 export { Blog } from './Blog';
 export { Activities } from './Activities';
+export { Navigation } from './Navigation';

@@ -5,13 +5,11 @@ import { cn } from '@/utils/cn';
 type Props = {
   children: ReactNode;
   news?: boolean;
-  contact?: boolean;
 } & ComponentProps<'section'>;
 
 export const PageWhiteBackground = ({
   children,
   news,
-  contact,
   className,
   ...spread
 }: Props) => {
@@ -23,7 +21,6 @@ export const PageWhiteBackground = ({
         'h-[75%] xs:h-[80%] md:w-[76%] lg:w-[700px] xl:w-[820px]',
         'left-3 right-3 sm:left-5 sm:right-5 md:left-auto lg:right-16',
         { 'lg:right-[16%]': news },
-        { 'lg:right-[8%]': contact },
         className,
       )}
       {...spread}

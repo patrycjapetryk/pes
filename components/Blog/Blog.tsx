@@ -47,7 +47,7 @@ export const Blog = () => {
       <Title>News</Title>
 
       <div className='mt-8 grid grid-cols-1 gap-3 sm:mt-14 sm:grid-cols-2 sm:gap-x-7 sm:gap-y-5'>
-        {newsData.map((news) => {
+        {newsData.map((news, index) => {
           return (
             <figure key={news.id}>
               <div className='relative h-[190px] rounded-2xl sm:h-[170px] xl:h-[220px]'>
@@ -57,6 +57,7 @@ export const Blog = () => {
                   alt={news.image.alt}
                   fill
                   sizes='(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw'
+                  priority={index === 0 ? true : false}
                 />
               </div>
 

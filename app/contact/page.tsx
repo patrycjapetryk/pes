@@ -6,7 +6,7 @@ export default function Contact() {
     <main className='relative flex min-h-screen w-full flex-col items-center justify-between bg-dark-blue'>
       <Background className='opacity-1 bg-blue-pattern-mobile-4 md:bg-blue-pattern-4' />
 
-      <PageWhiteBackground contact>
+      <PageWhiteBackground>
         <ContactForm />
       </PageWhiteBackground>
     </main>

@@ -1,4 +1,5 @@
-import { Logo, Navigation } from '@/ui';
+import { Navigation } from '@/components';
+import { Logo } from '@/ui';
 
 export const Header = () => {
   return (
