@@ -7,3 +7,4 @@ export { Blog } from './Blog';
 export { Activities } from './Activities';
 export { Navigation } from './Navigation';
 export { NavigationCloseButton } from './Navigation';
+export { Contact } from './Contact';

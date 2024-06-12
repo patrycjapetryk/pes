@@ -1,10 +1,14 @@
 import { Title } from '@/ui';
 import { Form } from './Form';
 
-export const ContactForm = () => {
+type Props = {
+  label?: string;
+};
+
+export const ContactForm = ({ label = 'Kontakt' }: Props) => {
   return (
     <section>
-      <Title>Kontakt</Title>
+      <Title>{label}</Title>
       <Form />
     </section>
   );

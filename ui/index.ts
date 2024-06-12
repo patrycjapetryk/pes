@@ -11,3 +11,4 @@ export { Textarea } from './Textarea';
 export { Input } from './Input';
 export { Loader } from './Loader';
 export { PageWhiteBackground } from './PageWhiteBackground';
+export { Paragraph } from './Paragraph';
