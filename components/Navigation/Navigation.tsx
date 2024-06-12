@@ -18,7 +18,7 @@ export const Navigation = ({ className, ...spread }: ComponentProps<'div'>) => {
       .timeline({
         defaults: {
           duration: 0.9,
-          ease: 'back.out(1.4)',
+          ease: 'back.out(1.1)',
         },
       })
       .to(el.current, {

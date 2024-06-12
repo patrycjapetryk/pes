@@ -16,7 +16,7 @@ export const NavigationMobile = forwardRef(
         ref={ref}
       >
         <nav
-          className='rounded-l-3xl border border-gray bg-white pb-24 pl-12 pr-28 pt-24 text-xl'
+          className='rounded-l-3xl border border-gray bg-white pb-24 pl-12 pr-20 pt-24 text-xl'
           ref={ref}
         >
           <NavigationList mobile toggleTimeline={toggleTimeline} />

@@ -14,9 +14,13 @@ export const NavigationList = ({ toggleTimeline, mobile }: Props) => {
       })}
       onClick={toggleTimeline}
     >
-      <NavigationListItem url='/about-us' label='About us' mobile={mobile} />
-      <NavigationListItem url='/news' label='News' mobile={mobile} />
-      <NavigationListItem url='/contact' label='Contact' mobile={mobile} />
+      <NavigationListItem url='/o-nas' label='O nas' mobile={mobile} />
+      <NavigationListItem
+        url='/aktualnosci'
+        label='Aktualności'
+        mobile={mobile}
+      />
+      <NavigationListItem url='/kontakt' label='Kontakt' mobile={mobile} />
     </ul>
   );
 };
