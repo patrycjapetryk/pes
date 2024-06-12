@@ -1,27 +1,17 @@
 export const faqData = [
   {
-    question: 'Czym się zajmujemy?',
+    question: 'Cele fundacji',
     answer:
-      'System HVAC to skrót od angielskich słów heating, ventilation, air conditioning, czyli odpowiednio: ogrzewanie, wentylacja i klimatyzacja. To nowoczesny system, który ma za zadanie zapewnienia optymalnych warunków w budynku przy odpowiedniej wydajności energetycznej. W HVAC wszystkie urządzenia pracują jednocześnie',
+      'Fundacja naukowa ma szerokie cele, obejmujące szkolnictwo wyższe, naukę, przedsiębiorczość oraz badania. Promuje współpracę między uczelniami, naukowcami i przedsiębiorcami, tworząc relacje i partnerstwa gospodarcze. Organizuje studia podyplomowe oraz warsztaty dla przedsiębiorców, rozwijając szkolnictwo wyższe. Wspiera młodzież uzdolnioną poprzez stypendia i granty, a także wykonuje badania na zlecenie podmiotów zewnętrznych, przyczyniając się do rozwoju nauki i innowacji.',
   },
   {
-    question: 'Co to jest klimatyzacja precyzyjna?',
+    question: 'Działalność fundacji',
     answer:
-      'To nowoczesny system dający możliwość utrzymania temperatury i wilgotności powietrza w danym pomieszczeniu z bardzo dużą dokładnością. System wykorzystywany jest w pomieszczeniach specjalnego przeznaczenia np. serwerowniach czy laboratoriach.',
+      'Fundacja naukowa ma za zadanie stymulowanie współpracy pomiędzy uczelniami, naukowcami i przedsiębiorcami, a także rozwijanie szkolnictwa wyższego. Poprzez organizację studiów podyplomowych, warsztatów i udzielanie stypendiów, fundacja wspiera młodzież uzdolnioną. Dodatkowo, wykonuje badania na zlecenie, przyczyniając się do rozwoju nauki i innowacji. Misją fundacji jest promowanie rozwoju nauki, edukacji i przedsiębiorczości w Polsce.',
   },
   {
-    question: 'Czym różni się wentylacja od klimatyzacji?',
+    question: 'Władze fundacji',
     answer:
-      'Głównym zadaniem wentylacji jest dostarczanie do pomieszczeń świeżego powietrza z zewnątrz oraz usuwanie z niego zanieczyszczeń i przykrego zapachu. Co ważne – system wentylacji nie zmienia parametrów powietrza. To zadanie dla klimatyzacji, która dobrze zainstalowana i skonfigurowana, reguluje wilgotność i temperaturę w danym pomieszczeniu.',
-  },
-  {
-    question: 'Czym są naturalne źródła ciepła?',
-    answer:
-      'To źródła pozyskane z szeroko rozumianej energii odnawialnej (OZE). Ich niewątpliwym atutem jest ekologiczność, energooszczędność, wysoka wydajność, duży komfort użytkowania, a także niskie koszty eksploatacji.',
-  },
-  {
-    question: 'Czym jest OZE?',
-    answer:
-      'To odnawialne źródła energii uzupełniające się w sposób naturalny. To doskonała alternatywa dla paliw kopalnych, których obecne wydobycie staje się mało ekonomiczne i wątpliwe dla środowiska. W Polsce korzystamy z takich źródeł jak: energia słoneczna (fotowoltaika), energia wiatru, energia wodna, energia geotermalna czy energia pozyskiwana z biomasy, biogazu i biopłynów.',
+      'W strukturze Fundacji Naukowo-Edukacyjnej "Portal Energetyki Stosowanej" istnieją trzy organy statutowe: Zarząd, Rada Fundacji oraz Rada Naukowa. Rada Naukowa zajmuje szczególne miejsce w ramach Fundacji i składa się z wybitnych polskich uczonych oraz specjalistów z dziedziny instalacji budowlanych, hydrotechniki i inżynierii środowiska. W skład Rady Naukowej wchodzą między innymi dr inż. Zenon Spik oraz inni wybitni eksperci. Rada Naukowa pełni rolę organu doradczego i opiniodawczego wobec Zarządu oraz Rady Fundacji i Fundatorów. Jej głównym zadaniem jest opracowywanie kierunków działalności naukowo-edukacyjnej Fundacji oraz wskazywanie konkretnych działań, które przyczynią się do osiągnięcia celów Fundacji. Ponadto, Rada Naukowa jest odpowiedzialna za wybór osób spośród młodzieży szczególnie uzdolnionej, które otrzymują wsparcie Fundacji w postaci stypendiów, grantów lub innych odpowiednich form pomocy.',
   },
 ];
